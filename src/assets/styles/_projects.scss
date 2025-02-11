@@ -1,0 +1,14 @@
+// src/assets/styles/_projects.scss
+
+.project {
+    background-color: white;
+    padding: $space-sm;
+    margin-bottom: $space-md;
+    border: 2px solid $primary-color;
+    transition: border-color 0.3s ease;
+  
+    &:hover {
+      border-color: $secondary-color;
+    }
+  }
+  

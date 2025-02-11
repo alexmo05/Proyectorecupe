@@ -1,0 +1,17 @@
+// src/assets/styles/_header.scss
+
+@import './mixins';
+
+.header {
+  background-color: $primary-color;
+  padding: $space-sm;
+
+  h1 {
+    font-weight: $font-weight-bold;
+    color: white;
+  }
+
+  @include media(small) {
+    background-color: $secondary-color;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "porfoliobueno",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "sass src/assets/styles/main.scss dist/assets/styles/main.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.84.0",
+    "vite": "^6.1.0"
+  }
+}
